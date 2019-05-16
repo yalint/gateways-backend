@@ -38,5 +38,6 @@ Instructions
 	git clone https://github.com/yalint/gateways-backend.git
 2. cd gateways-backend
 3. npm install
-4. npm start 
-5. Install and open Postman, import json file "Gateway Api.postman_collection.json" which is in the root directory of the project
+4. Specify your mongodb connection string in config.js file.
+5. npm start 
+6. Install and open Postman, import json file "Gateway Api.postman_collection.json" which is in the root directory of the project
