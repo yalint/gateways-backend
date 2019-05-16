@@ -12,7 +12,7 @@ Project Structure
 - Components
 	-  Express handlers (Factories, Middlewares and routes)
 - Controllers
-	- Musala.GatewayMgmt.Services (Business concrete implementation)
+	- Converts the request data into a model and passes it to the use case.
 - Models
 	- Domain model objects such as Entities
 - Remote_models
