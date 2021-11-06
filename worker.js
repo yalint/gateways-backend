@@ -6,7 +6,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 class Worker extends SCWorker {
     async run() {
-        console.log('   >> Worker PID:', process.pid);
+        console.log('>> Worker PID:', process.pid);
         let app = require('express')();
         let httpServer = this.httpServer;
         let scServer = this.scServer;
